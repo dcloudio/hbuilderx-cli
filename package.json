@@ -1,0 +1,36 @@
+{
+  "name": "@dcloudio/hbuilderx-cli",
+  "version": "1.1.1",
+  "description": "HBuilderX CLI integration for uni-app development",
+  "main": "lib/hbuilderx.js",
+  "bin": {
+    "uni-launch": "./bin/uni-launch.js",
+    "uni-logcat": "./bin/uni-logcat.js",
+    "uni-test": "./bin/uni-test.js"
+  },
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcloudio/hbuilderx-cli.git"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "hbuilderx",
+    "uniapp",
+    "cli",
+    "development"
+  ],
+  "author": "DCloud",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
