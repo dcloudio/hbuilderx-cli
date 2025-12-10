@@ -1,6 +1,6 @@
 {
   "name": "@dcloudio/hbuilderx-cli",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "HBuilderX CLI integration for uni-app development",
   "main": "lib/hbuilderx.js",
   "bin": {

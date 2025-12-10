@@ -95,7 +95,7 @@ npm run dev:mp-toutiao -- --runtime-log true
 npm run logcat:web
 
 # 查看 Android 日志
-npm run logcat:app-android -- --serial emulator-5554
+npm run logcat:app-android -- --deviceId emulator-5554
 
 # 查看 iOS 日志
 npm run logcat:app-ios -- --iosTarget device
