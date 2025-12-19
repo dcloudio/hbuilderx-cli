@@ -1,9 +1,10 @@
 {
   "name": "@dcloudio/hbuilderx-cli",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "HBuilderX CLI integration for uni-app development",
   "main": "lib/hbuilderx.js",
   "bin": {
+    "hbuilderx": "./bin/hbuilderx.js",
     "uni-launch": "./bin/uni-launch.js",
     "uni-logcat": "./bin/uni-logcat.js",
     "uni-test": "./bin/uni-test.js"

@@ -1,86 +1,92 @@
 // HBuilderX-cli 命令配置 - 新增命令时只需在这里添加配置
 module.exports = [
+  // hbuilderx
+  {
+    scriptName: 'hbuilderx',
+    command: 'hbuilderx',
+    description: 'hbuilderx cli'
+  },
   // uni-launch 平台配置
-  // {
-  //   scriptName: 'dev:web',
-  //   command: 'uni-launch web',
-  //   description: 'Launch web development server'
-  // },
-  // {
-  //   scriptName: 'dev:app-android',
-  //   command: 'uni-launch app-android',
-  //   description: 'Launch Android app development'
-  // },
-  // {
-  //   scriptName: 'dev:app-ios',
-  //   command: 'uni-launch app-ios',
-  //   description: 'Launch iOS app development'
-  // },
-  // {
-  //   scriptName: 'dev:app-harmony',
-  //   command: 'uni-launch app-harmony',
-  //   description: 'Launch HarmonyOS app development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-weixin',
-  //   command: 'uni-launch mp-weixin',
-  //   description: 'Launch WeChat Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-alipay',
-  //   command: 'uni-launch mp-alipay',
-  //   description: 'Launch Alipay Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-baidu',
-  //   command: 'uni-launch mp-baidu',
-  //   description: 'Launch Baidu Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-xhs',
-  //   command: 'uni-launch mp-xhs',
-  //   description: 'Launch Xiaohongshu Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-toutiao',
-  //   command: 'uni-launch mp-toutiao',
-  //   description: 'Launch Toutiao Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-qq',
-  //   command: 'uni-launch mp-qq',
-  //   description: 'Launch QQ Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-360',
-  //   command: 'uni-launch mp-360',
-  //   description: 'Launch 360 Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-kuaishou',
-  //   command: 'uni-launch mp-kuaishou',
-  //   description: 'Launch Kuaishou Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-lark',
-  //   command: 'uni-launch mp-lark',
-  //   description: 'Launch Lark Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:mp-jd',
-  //   command: 'uni-launch mp-jd',
-  //   description: 'Launch JD Mini Program development'
-  // },
-  // {
-  //   scriptName: 'dev:quickapp-huawei',
-  //   command: 'uni-launch quickapp-webview-huawei',
-  //   description: 'Launch Huawei QuickApp development'
-  // },
-  // {
-  //   scriptName: 'dev:quickapp-union',
-  //   command: 'uni-launch quickapp-webview-union',
-  //   description: 'Launch Union QuickApp development'
-  // },
+  {
+    scriptName: 'dev:web',
+    command: 'uni-launch web',
+    description: 'Launch web development server'
+  },
+  {
+    scriptName: 'dev:app-android',
+    command: 'uni-launch app-android',
+    description: 'Launch Android app development'
+  },
+  {
+    scriptName: 'dev:app-ios',
+    command: 'uni-launch app-ios',
+    description: 'Launch iOS app development'
+  },
+  {
+    scriptName: 'dev:app-harmony',
+    command: 'uni-launch app-harmony',
+    description: 'Launch HarmonyOS app development'
+  },
+  {
+    scriptName: 'dev:mp-weixin',
+    command: 'uni-launch mp-weixin',
+    description: 'Launch WeChat Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-alipay',
+    command: 'uni-launch mp-alipay',
+    description: 'Launch Alipay Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-baidu',
+    command: 'uni-launch mp-baidu',
+    description: 'Launch Baidu Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-xhs',
+    command: 'uni-launch mp-xhs',
+    description: 'Launch Xiaohongshu Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-toutiao',
+    command: 'uni-launch mp-toutiao',
+    description: 'Launch Toutiao Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-qq',
+    command: 'uni-launch mp-qq',
+    description: 'Launch QQ Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-360',
+    command: 'uni-launch mp-360',
+    description: 'Launch 360 Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-kuaishou',
+    command: 'uni-launch mp-kuaishou',
+    description: 'Launch Kuaishou Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-lark',
+    command: 'uni-launch mp-lark',
+    description: 'Launch Lark Mini Program development'
+  },
+  {
+    scriptName: 'dev:mp-jd',
+    command: 'uni-launch mp-jd',
+    description: 'Launch JD Mini Program development'
+  },
+  {
+    scriptName: 'dev:quickapp-huawei',
+    command: 'uni-launch quickapp-webview-huawei',
+    description: 'Launch Huawei QuickApp development'
+  },
+  {
+    scriptName: 'dev:quickapp-union',
+    command: 'uni-launch quickapp-webview-union',
+    description: 'Launch Union QuickApp development'
+  },
 
   // uni-logcat 平台配置
   {
